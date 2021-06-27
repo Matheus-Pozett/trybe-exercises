@@ -124,3 +124,17 @@ if (numberOne % 2 === 0 || numberTwo % 2 === 0 || numberThree % 2 === 0) {
 }
 
 console.log(number);
+
+//Exercise 9
+
+let numeroA = 54;
+let numeroB = 66;
+let numeroC = 85;
+
+let numeroVdd = false;
+
+if (numeroA % 2 !== 0 || numeroB % 2 !== 0 || numeroC % 2 !== 0) {
+  numeroVdd = true;
+}
+console.log(numeroVdd);
+
