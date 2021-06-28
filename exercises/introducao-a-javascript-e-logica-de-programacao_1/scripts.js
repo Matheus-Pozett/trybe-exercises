@@ -138,3 +138,19 @@ if (numeroA % 2 !== 0 || numeroB % 2 !== 0 || numeroC % 2 !== 0) {
 }
 console.log(numeroVdd);
 
+//Exercicio 10
+
+let valorProduto = 5;
+let valorVenda = 8;
+
+if (valorProduto >= 0 && valorVenda >= 0) {
+  let valorTotalProduto = valorProduto * 1.2;
+  let lucro = (valorVenda - valorTotalProduto) * 1000;
+  console.log(lucro);
+} else {
+  console.log("Valores negativos, tente novamente.");
+}
+
+//Exercicio 11
+
+
